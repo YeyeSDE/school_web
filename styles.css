@@ -1,0 +1,25 @@
+.register {
+    background-color: rgb(202, 192, 199);
+    align-items: center;
+    align-content: center;
+}
+
+.signup {
+    font-size: large;
+    font-style: italic;
+    color: crimson;
+    border-bottom: 0em;
+    border-top: 5em;
+}
+
+.clubs {
+    background-color: rgb(235, 224, 224);
+}
+
+.footer {
+    background-color: rgb(202, 192, 199);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: small;
+
+}
