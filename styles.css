@@ -1,3 +1,17 @@
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* This CSS rule applies to the content-wrapper class */
+.content-wrapper {
+    width: 100%; /* Sets the width of the wrapper to 90% of the body (flex container) */
+    /*max-width: 1000px; /* Ensures the content doesn't get too wide on large screens */
+}
+
 .register {
     background-color: rgb(202, 192, 199);
     align-items: center;
@@ -8,12 +22,12 @@
     font-size: large;
     font-style: italic;
     color: crimson;
-    border-bottom: 0em;
-    border-top: 5em;
 }
 
 .clubs {
     background-color: rgb(235, 224, 224);
+    border-bottom: 10em;
+    border-top: 10em;
 }
 
 .footer {
@@ -21,5 +35,31 @@
     box-sizing: border-box;
     text-align: center;
     font-size: small;
+}
 
+img {
+    max-width: 120%;
+    height: auto;
+}
+
+body, .content-wrapper {
+    text-align: center;
+}
+
+table, th, td {
+    text-align: center;
+    margin: auto;
+}
+
+h1, h2, h3, .topnav, table caption, .register p, footer {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+    margin-top: 5px;
 }
